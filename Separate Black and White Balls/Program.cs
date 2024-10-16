@@ -36,8 +36,6 @@ namespace Separate_Black_and_White_Balls
       var input = "0111";
       long result = s.MinimumSteps(input);
       System.Console.WriteLine(result);
-
-
     }
   }
 }
