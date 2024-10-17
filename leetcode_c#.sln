@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Separate Black and White Balls", "Separate Black and White Balls\Separate Black and White Balls.csproj", "{A71546CE-321A-42ED-A820-38BF4D790EBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Happy String", "Longest Happy String\Longest Happy String.csproj", "{A5F29808-9990-454D-922A-D646B08C123B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Happy String", "Longest Happy String\Longest Happy String.csproj", "{A5F29808-9990-454D-922A-D646B08C123B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Swap", "Maximum Swap\Maximum Swap.csproj", "{6006A14A-3D87-4711-9B91-05B8914B1B3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A5F29808-9990-454D-922A-D646B08C123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F29808-9990-454D-922A-D646B08C123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F29808-9990-454D-922A-D646B08C123B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6006A14A-3D87-4711-9B91-05B8914B1B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6006A14A-3D87-4711-9B91-05B8914B1B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6006A14A-3D87-4711-9B91-05B8914B1B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6006A14A-3D87-4711-9B91-05B8914B1B3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
