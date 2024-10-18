@@ -5,31 +5,26 @@
         public static int CountMaxOrSubsets(int[] nums)
         {
             var maxBitwiseOr = nums.Aggregate((a, b) => a | b);
-            List<List<int>> allSubarray = GetAllSubArrays(nums);
-            int maxSubsetsWithMaxBitwiseOr = allSubarray.Aggregate<List<int>, int, int>(
-                0,
-                (acc, item) => item.Aggregate((a, b) => a | b) == maxBitwiseOr ? ++acc : acc,
-                acc => acc);
-            return maxSubsetsWithMaxBitwiseOr;
-        }
+            var result = 0;
+            int totalSubsets = 1 << nums.Length;
 
-        static List<List<int>> GetAllSubArrays(int[] array)
-        {
-            List<List<int>> result = new List<List<int>>();
-            int totalSubsets = 1 << array.Length;
             for (int i = 1; i < totalSubsets; i++)
             {
-                List<int> subArray = new();
-                for (int j = 0; j < array.Length; j++)
+                int currentBitwiseOr = 0;
+                for (int j = 0; j < nums.Length; j++)
                 {
-                    if ((i & (1 << j)) != 0) subArray.Add(array[j]);
-
+                    if ((i & (1 << j)) != 0)
+                    {
+                        currentBitwiseOr |= nums[j];
+                        if (currentBitwiseOr == maxBitwiseOr)
+                        {
+                            result++; break;
+                        }
+                    };
                 }
-                result.Add(subArray);
             }
             return result;
         }
-
 
 
         static void Main(string[] args)
