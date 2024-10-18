@@ -7,7 +7,6 @@
             var maxBitwiseOr = nums.Aggregate((a, b) => a | b);
             var result = 0;
             int totalSubsets = 1 << nums.Length;
-
             for (int i = 1; i < totalSubsets; i++)
             {
                 int currentBitwiseOr = 0;
