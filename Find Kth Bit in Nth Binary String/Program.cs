@@ -14,6 +14,7 @@ namespace Find_Kth_Bit_in_Nth_Binary_String
         public static string GenBitnaryString(int n, Dictionary<int, string> cache)
         {
             if (cache.ContainsKey(n)) return cache[n];
+            if (n == 1) { cache.Add(n, "0"); return cache[n]; }
 
             string s = GenBitnaryString(n - 1, cache);
             StringBuilder sb = new();
