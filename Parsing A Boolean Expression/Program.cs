@@ -6,56 +6,48 @@
         {
 
             Stack<char> chars = new();
+            Stack<char> operators = new();
             for (var i = 0; i < expression.Length; i++)
             {
                 if (expression[i] != ')')
-                    chars.Push(expression[i]);
+                {
+                    if (expression[i] == '|' || expression[i] == '&' || expression[i] == '!')
+                        operators.Push(expression[i]);
+                    else if (expression[i] != ',')
+                    {
+                        chars.Push(expression[i]);
+                    }
+                }
                 else
                 {
-                    List<char> temp = new();
+                    char lastOperator = operators.Pop();
+                    var temp = chars.Pop() == 't';
+                    if (lastOperator == '!') temp = !temp;
                     while (true)
                     {
                         char c = chars.Pop();
                         if (c == '(') break;
-                        if (c != ',')
-                            temp.Add(c);
+                        switch (lastOperator)
+                        {
+                            case '|':
+                                temp |= c == 't';
+                                break;
+                            case '&':
+                                temp &= c == 't';
+                                break;
+                        }
                     }
-                    var tempResult = false;
-                    switch (chars.Pop())
-                    {
-                        case '|':
-                            tempResult = HandleOr(temp);
-                            break;
-                        case '&':
-                            tempResult = HandleAnd(temp);
-                            break;
-                        case '!':
-                            tempResult = HandleNot(temp);
-                            break;
-                    }
-                    if (tempResult) chars.Push('t');
+
+                    if (temp) chars.Push('t');
                     else chars.Push('f');
                 }
             }
-
             return chars.Pop() == 't';
         }
 
-        public static bool HandleAnd(List<char> chars)
-        {
-            return chars.All(c => c == 't');
-        }
-
-        public static bool HandleOr(List<char> chars)
-        {
-            return chars.Any(c => c == 't');
-        }
-
-        public static bool HandleNot(List<char> chars) => chars.Last() != 't';
-
         static void Main(string[] args)
         {
-            ParseBoolExpr("|(&(t,f,t),!(t))");
+            Console.WriteLine(ParseBoolExpr("&(t,t,t)"));
         }
     }
 }
