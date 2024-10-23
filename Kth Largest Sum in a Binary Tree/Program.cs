@@ -21,7 +21,6 @@
                 }
                 priorityQueue.Enqueue(sum, sum);
             }
-
             //Console.WriteLine(levelSums.Aggregate("", (acc, item) => acc + " " + item));
             if (priorityQueue.Count < k) return -1;
             for (var i = 0; i < k - 1; i++)
