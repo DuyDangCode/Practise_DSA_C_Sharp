@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains Duplicate II", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kth Largest Sum in a Binary Tree", "Kth Largest Sum in a Binary Tree\Kth Largest Sum in a Binary Tree.csproj", "{EAED3A14-2930-49BA-8D16-C70D0D2530B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cousins in Binary Tree II", "Cousins in Binary Tree II\Cousins in Binary Tree II.csproj", "{416C9DEF-855D-402D-A612-743F029F1102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cousins in Binary Tree II", "Cousins in Binary Tree II\Cousins in Binary Tree II.csproj", "{416C9DEF-855D-402D-A612-743F029F1102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flip Equivalent Binary Trees", "Flip Equivalent Binary Trees\Flip Equivalent Binary Trees.csproj", "{B7A197AE-AFFB-47AD-AE24-E7AC75FD6862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{416C9DEF-855D-402D-A612-743F029F1102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416C9DEF-855D-402D-A612-743F029F1102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416C9DEF-855D-402D-A612-743F029F1102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A197AE-AFFB-47AD-AE24-E7AC75FD6862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A197AE-AFFB-47AD-AE24-E7AC75FD6862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A197AE-AFFB-47AD-AE24-E7AC75FD6862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A197AE-AFFB-47AD-AE24-E7AC75FD6862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

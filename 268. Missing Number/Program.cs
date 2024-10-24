@@ -14,7 +14,6 @@
                 actualSum += nums[i];
                 value++;
             }
-
             return expectedSum - actualSum;
         }
 
