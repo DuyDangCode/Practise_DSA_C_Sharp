@@ -8,8 +8,6 @@
             int result = num;
             List<int> nums = new(len * 2);
             List<int> nums2 = new(len * 2);
-
-
             while (num > 0)
             {
                 var value = num % 10;

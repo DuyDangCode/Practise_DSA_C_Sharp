@@ -1,7 +1,6 @@
 ﻿
 namespace Separate_Black_and_White_Balls
 {
-
   public class Solution
   {
     public long MinimumSteps(string s)
@@ -31,7 +30,6 @@ namespace Separate_Black_and_White_Balls
     }
     public static void Main(string[] args)
     {
-
       var s = new Solution();
       var input = "0111";
       long result = s.MinimumSteps(input);
