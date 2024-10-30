@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Separate Black and White Balls")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91bcc64c182128cc05b9ff0321558f105d7c10ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f5d0d5581b504846cd9ffd62c17583f37bf2e81")]
 [assembly: System.Reflection.AssemblyProductAttribute("Separate Black and White Balls")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Separate Black and White Balls")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
