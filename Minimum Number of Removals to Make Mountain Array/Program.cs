@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+
         public static int MinimumMountainRemovals(int[] nums)
         {
 
