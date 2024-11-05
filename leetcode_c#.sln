@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circular Sentence", "Circul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate String", "Rotate String\Rotate String.csproj", "{9C2C9396-8F3E-4E61-929A-267C88C4A06D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String Compression III", "String Compression III\String Compression III.csproj", "{4C5F4A1D-17AB-4128-8D73-43D42D9130FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String Compression III", "String Compression III\String Compression III.csproj", "{4C5F4A1D-17AB-4128-8D73-43D42D9130FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum Number of Changes to Make Binary String Beautiful", "Minimum Number of Changes to Make Binary String Beautiful\Minimum Number of Changes to Make Binary String Beautiful.csproj", "{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{4C5F4A1D-17AB-4128-8D73-43D42D9130FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C5F4A1D-17AB-4128-8D73-43D42D9130FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C5F4A1D-17AB-4128-8D73-43D42D9130FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
