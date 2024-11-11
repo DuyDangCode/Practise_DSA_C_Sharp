@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate String", "Rotate Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String Compression III", "String Compression III\String Compression III.csproj", "{4C5F4A1D-17AB-4128-8D73-43D42D9130FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum Number of Changes to Make Binary String Beautiful", "Minimum Number of Changes to Make Binary String Beautiful\Minimum Number of Changes to Make Binary String Beautiful.csproj", "{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimum Number of Changes to Make Binary String Beautiful", "Minimum Number of Changes to Make Binary String Beautiful\Minimum Number of Changes to Make Binary String Beautiful.csproj", "{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prime Subtraction Operation", "Prime Subtraction Operation\Prime Subtraction Operation.csproj", "{61E1039B-9C2B-432B-AAB9-6917FAA17A53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F04C9FD0-63CE-40E7-B359-4BD71BD446C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E1039B-9C2B-432B-AAB9-6917FAA17A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E1039B-9C2B-432B-AAB9-6917FAA17A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E1039B-9C2B-432B-AAB9-6917FAA17A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E1039B-9C2B-432B-AAB9-6917FAA17A53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
