@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimum Number of Changes t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prime Subtraction Operation", "Prime Subtraction Operation\Prime Subtraction Operation.csproj", "{61E1039B-9C2B-432B-AAB9-6917FAA17A53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Most Beautiful Item for Each Query", "Most Beautiful Item for Each Query\Most Beautiful Item for Each Query.csproj", "{149723D1-06A7-46A8-B5AE-F09F99BB73DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Most Beautiful Item for Each Query", "Most Beautiful Item for Each Query\Most Beautiful Item for Each Query.csproj", "{149723D1-06A7-46A8-B5AE-F09F99BB73DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count the Number of Fair Pairs", "Count the Number of Fair Pairs\Count the Number of Fair Pairs.csproj", "{203AC5BA-FEA2-4044-B898-201B14133488}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{149723D1-06A7-46A8-B5AE-F09F99BB73DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{149723D1-06A7-46A8-B5AE-F09F99BB73DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{149723D1-06A7-46A8-B5AE-F09F99BB73DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203AC5BA-FEA2-4044-B898-201B14133488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203AC5BA-FEA2-4044-B898-201B14133488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203AC5BA-FEA2-4044-B898-201B14133488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203AC5BA-FEA2-4044-B898-201B14133488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
