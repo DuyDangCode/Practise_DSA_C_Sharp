@@ -57,6 +57,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Most Beautiful Item for Eac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count the Number of Fair Pairs", "Count the Number of Fair Pairs\Count the Number of Fair Pairs.csproj", "{203AC5BA-FEA2-4044-B898-201B14133488}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check If a Word Occurs As a Prefix of Any Word in a Sentence", "Check If a Word Occurs As a Prefix of Any Word in a Sentence\Check If a Word Occurs As a Prefix of Any Word in a Sentence.csproj", "{B87EE668-C13B-4FA4-8ABA-5764049507F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding Spaces to a String", "Adding Spaces to a String\Adding Spaces to a String.csproj", "{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{203AC5BA-FEA2-4044-B898-201B14133488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{203AC5BA-FEA2-4044-B898-201B14133488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{203AC5BA-FEA2-4044-B898-201B14133488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87EE668-C13B-4FA4-8ABA-5764049507F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87EE668-C13B-4FA4-8ABA-5764049507F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87EE668-C13B-4FA4-8ABA-5764049507F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87EE668-C13B-4FA4-8ABA-5764049507F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

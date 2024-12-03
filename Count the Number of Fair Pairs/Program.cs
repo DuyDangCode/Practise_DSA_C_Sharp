@@ -15,8 +15,6 @@
                 result += 1 * (r - l);
             }
             return result;
-
-
         }
         public static int BinarySearch(int[] nums, int l, int r, int target)
         {
