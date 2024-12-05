@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check If a Word Occurs As a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding Spaces to a String", "Adding Spaces to a String\Adding Spaces to a String.csproj", "{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Move Pieces to Obtain a String", "Move Pieces to Obtain a String\Move Pieces to Obtain a String.csproj", "{1B2DE425-0FE3-447D-AF95-8E3B292EF4B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A8F9C8E-4542-4949-9ABE-0C4610FF5361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2DE425-0FE3-447D-AF95-8E3B292EF4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2DE425-0FE3-447D-AF95-8E3B292EF4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2DE425-0FE3-447D-AF95-8E3B292EF4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2DE425-0FE3-447D-AF95-8E3B292EF4B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
